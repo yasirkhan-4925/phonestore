@@ -1,0 +1,115 @@
+/* navbar styling */
+
+
+.navbar{
+    justify-content: center;
+    background-color: lightgray;
+    
+
+}
+
+.navlogo{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:441px)
+{
+    .navlogo{
+        font-size: 25px;
+        color: black;
+    }
+}
+
+
+.headerimage{
+    width: 100%;
+    
+}
+
+
+hr{
+     height: 5px;
+      background: lightgray;
+      width: 17%;
+      position:absolute;
+      left: 15px;
+}
+
+
+.categoryhandfree{
+    margin-top: 2px;
+}
+
+@media (max-width:767px)
+{
+    
+.categorycharger{
+ margin-top: 8px;
+    
+}
+
+
+.categoryhandfree{
+    margin-top: 8px;
+}
+
+.categoryothers{
+    margin-top: 8px;
+}
+}
+
+
+
+.overlay{
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: #1d212478;
+    height: 100%;
+    width: 95%;
+    opacity: 0;
+    transition: 0.5s ease;
+
+}
+
+.ctr{
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+    padding-top: 30%;
+}
+
+.imghov:hover .overlay{
+    opacity: 1;
+}
+
+
+
+.overlay2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    background-color:#1d212478;;
+    height: 100%;
+    width: 95%;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.ctr2{
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    padding-top: 13%;
+    padding-left: 35%;
+}
+
+.imghov2:hover .overlay2{
+    opacity: 1;
+}
+
+
