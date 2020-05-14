@@ -353,3 +353,25 @@ hr {
   }
 }
 
+
+
+.btn{
+  background-color: black;
+  color: white;
+}
+
+.specs{
+  margin-top: 15px;
+}
+
+
+@media(max-width:991px)
+{
+  .specs{
+    text-align: center;
+  }
+
+  .marginphone{
+    margin-top: 50px;
+  }
+}
