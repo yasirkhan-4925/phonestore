@@ -1,268 +1,355 @@
 /* navbar styling */
 
 
-.navbar{
-    justify-content: center;
-    background-color: lightgray;
-    
 
+
+
+.navbar {
+  justify-content: center;
+  background-color: lightgray;
 }
 
-.navlogo{
-    font-size: 30px;
+.navlogo {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 441px) {
+  .navlogo {
+    font-size: 25px;
     color: black;
-    font-weight: bold;
+  }
 }
 
-
-
-@media (max-width:441px)
-{
-    .navlogo{
-        font-size: 25px;
-        color: black;
-    }
+.headerimage {
+  width: 100%;
 }
 
-
-.headerimage{
-    width: 100%;
-    
+hr {
+  height: 5px;
+  background: lightgray;
+  width: 17%;
+  position: absolute;
+  left: 15px;
 }
 
-
-hr{
-     height: 5px;
-      background: lightgray;
-      width: 17%;
-      position:absolute;
-      left: 15px;
+.categoryhandfree {
+  margin-top: 2px;
 }
 
-
-.categoryhandfree{
-    margin-top: 2px;
-}
-
-@media (max-width:767px)
-{
-    
-.categorycharger{
- margin-top: 8px;
-    
-}
-
-
-.categoryhandfree{
+@media (max-width: 767px) {
+  .categorycharger {
     margin-top: 8px;
-}
+  }
 
-.categoryothers{
+  .categoryhandfree {
     margin-top: 8px;
+  }
+
+  .categoryothers {
+    margin-top: 8px;
+  }
 }
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #1d212478;
+  height: 100%;
+  width: 95%;
+  opacity: 0;
+  transition: 0.5s ease;
 }
 
+.ctr {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 30%;
+}
 
+.imghov:hover .overlay {
+  opacity: 1;
+}
 
-.overlay{
-    position:absolute;
-    top:50%;
-    left:50%;
+.overlay2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  background-color: #1d212478;
+  height: 100%;
+  width: 95%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.ctr2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding-top: 13%;
+  padding-left: 35%;
+}
+
+.imghov2:hover .overlay2 {
+  opacity: 1;
+}
+
+@media (max-width: 1199px) {
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     background-color: #1d212478;
     height: 100%;
-    width: 95%;
+    width: 94%;
     opacity: 0;
     transition: 0.5s ease;
+  }
 
+  .overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    background-color: #1d212478;
+    height: 100%;
+    width: 94%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
 }
 
-.ctr{
+@media (max-width: 991px) {
+  .overlay {
     position: absolute;
-    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    background-color: #1d212478;
+    height: 100%;
+    width: 93%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    background-color: #1d212478;
+    height: 100%;
+    width: 93%;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+
+  .ctr {
+    position: absolute;
+    transform: translate(-50%, -50%);
     text-align: center;
     padding-top: 30%;
-}
+  }
 
-.imghov:hover .overlay{
-    opacity: 1;
-}
-
-
-
-.overlay2{
+  .ctr2 {
     position: absolute;
-    top:50%;
-    left:50%;
-    
-    background-color:#1d212478;;
-    height: 100%;
-    width: 95%;
-    opacity: 0;
-    transition: 0.5s ease;
-}
-
-.ctr2{
-    position: absolute;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
     padding-top: 13%;
-    padding-left: 35%;
+    padding-left: 29%;
+  }
 }
 
-.imghov2:hover .overlay2{
-    opacity: 1;
+@media (max-width: 767px) {
+  .ctr2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 13%;
+    padding-left: 36%;
+  }
 }
+
+@media (max-width: 451px) {
+  .ctr2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 13%;
+    padding-left: 34%;
+  }
+}
+
+@media (max-width: 413px) {
+  .ctr2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 13%;
+    padding-left: 32%;
+  }
+}
+
+@media (max-width: 342px) {
+  .ctr2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 13%;
+    padding-left: 28%;
+  }
+}
+
+.footer{
+  background-color:lightgray;
+  padding: 10px;
+
+}
+
+
+
+
+.copyright{
+  margin-top: 10px;
+}
+
+
+
+
+/* phone brand css */
+
+
+
+
+
+.brandrow{
+  justify-content: space-evenly;
+
+
+
+}
+
+
+.brandboxsize2{
+  height: 250px;
+}
+
+
+.lastrowbrand{
+  justify-content: space-between;
+}
+
+
+
+@media (max-width:767px)
+
+{
+
+  .imgsize{
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  
+}
+
+
+@media (max-width:1446px)
+{
+  .imgsize{
+   
+    margin-top: 8px;
+  }
+  
+}
+
+
+
+.overlaybrand{
+
+  position: absolute;
+  left:50%;
+  top: 50%;
+  background-color:  #1d212478;;
+
+  height: 100%;
+  width: 90%;
+  
+
+  margin-top: 4px;
+
+  opacity: 0;
+
+  
+  
+
+  
+}
+
+.overlaybrandctr{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding-top: 85px;
+  text-align: center;
+}
+
+.brandhover:hover .overlaybrand{
+  opacity: 1;
+}
+
 
 
 @media (max-width:1199px)
 {
-    .overlay{
-        position:absolute;
-        top:50%;
-        left:50%;
-        background-color: #1d212478;
-        height: 100%;
-        width: 94%;
-        opacity: 0;
-        transition: 0.5s ease;
+  .overlaybrandctr{
     
-    }
-
-    .overlay2{
-        position: absolute;
-        top:50%;
-        left:50%;
-        
-        background-color:#1d212478;;
-        height: 100%;
-        width: 94%;
-        opacity: 0;
-        transition: 0.5s ease;
-    }
+    padding-top: 60px;
+    
+  }
 }
-
 
 
 @media (max-width:991px)
 {
-    .overlay{
-        position:absolute;
-        top:50%;
-        left:50%;
-        background-color: #1d212478;
-        height: 100%;
-        width: 93%;
-        opacity: 0;
-        transition: 0.5s ease;
-    
-    }
+  .overlaybrand{
+    width:82%;
+  }
 
-    .overlay2{
-        position: absolute;
-        top:50%;
-        left:50%;
-        
-        background-color:#1d212478;;
-        height: 100%;
-        width: 93%;
-        opacity: 0;
-        transition: 0.5s ease;
-    }
-
-    
-.ctr{
-    position: absolute;
-    transform: translate(-50% ,-50%);
-    text-align: center;
-    padding-top: 30%;
-}
-
-.ctr2{
-    position: absolute;
-    transform: translate(-50% ,-50%);
-    padding-top: 13%;
-    padding-left: 29%;
-}
-
+  .overlaybrandctr{
+    padding-top: 40px;
+  }
 }
 
 
-
-
-
-@media (max-width:767px)
+@media (max-width:759px)
 {
-    
+  .overlaybrand{
+    width: 95%;
+  }
 
-.ctr2{
-    position: absolute;
-    transform: translate(-50% ,-50%);
-    padding-top: 13%;
-    padding-left: 36%;
-    
-}
-
+  .overlaybrandctr{
+    padding-top: 170px;
+  }
 }
 
 
-
-@media (max-width:451px)
+@media (max-width:759px)
 {
-    
-
-   
-
-    
-
-
-.ctr2{
-    position: absolute;
-    transform: translate(-50% ,-50%);
-    padding-top: 13%;
-    padding-left: 34%;
-    
+  .overlaybrandctr{
+    padding-top: 150px;
+  }
 }
 
-}
 
-@media (max-width:413px)
+@media (max-width:416px)
 {
-    
-
-   
-
-    
-
-
-.ctr2{
-    position: absolute;
-    transform: translate(-50% ,-50%);
-    padding-top: 13%;
-    padding-left: 32%;
-    
-}
-
+  .overlaybrandctr{
+    padding-top: 120px;
+  }
 }
 
 
-@media (max-width:342px)
+@media (max-width:362px)
 {
-    
-
-   
-
-    
-
-
-.ctr2{
-    position: absolute;
-    transform: translate(-50% ,-50%);
-    padding-top: 13%;
-    padding-left: 28%;
-    
+  .overlaybrandctr{
+    padding-top: 100px;
+  }
 }
-
-}
-
-
-
 
