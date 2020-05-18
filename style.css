@@ -1,9 +1,5 @@
 /* navbar styling */
 
-
-
-
-
 .navbar {
   justify-content: center;
   background-color: lightgray;
@@ -197,186 +193,180 @@ hr {
   }
 }
 
-.footer{
-  background-color:lightgray;
+.footer {
+  background-color: lightgray;
   padding: 10px;
-
 }
 
-
-
-
-.copyright{
+.copyright {
   margin-top: 10px;
 }
 
-
-
-
 /* phone brand css */
 
-
-
-
-
-.brandrow{
+.brandrow {
   justify-content: space-evenly;
-
-
-
 }
 
-
-.brandboxsize2{
+.brandboxsize2 {
   height: 250px;
 }
 
-
-.lastrowbrand{
+.lastrowbrand {
   justify-content: space-between;
 }
 
-
-
-@media (max-width:767px)
-
-{
-
-  .imgsize{
+@media (max-width: 767px) {
+  .imgsize {
     width: 100%;
     margin-top: 8px;
   }
-
-  
 }
 
-
-@media (max-width:1446px)
-{
-  .imgsize{
-   
+@media (max-width: 1446px) {
+  .imgsize {
     margin-top: 8px;
   }
-  
 }
 
-
-
-.overlaybrand{
-
+.overlaybrand {
   position: absolute;
-  left:50%;
+  left: 50%;
   top: 50%;
-  background-color:  #1d212478;;
+  background-color: #1d212478;
 
   height: 100%;
   width: 90%;
-  
 
   margin-top: 4px;
 
   opacity: 0;
-
-  
-  
-
-  
 }
 
-.overlaybrandctr{
+.overlaybrandctr {
   position: absolute;
   transform: translate(-50%, -50%);
   padding-top: 85px;
   text-align: center;
 }
 
-.brandhover:hover .overlaybrand{
+.brandhover:hover .overlaybrand {
   opacity: 1;
 }
 
-
-
-@media (max-width:1199px)
-{
-  .overlaybrandctr{
-    
+@media (max-width: 1199px) {
+  .overlaybrandctr {
     padding-top: 60px;
-    
   }
+}
+
+@media (max-width: 991px) {
+  .overlaybrand {
+    width: 82%;
+  }
+
+  .overlaybrandctr {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 759px) {
+  .overlaybrand {
+    width: 95%;
+  }
+
+  .overlaybrandctr {
+    padding-top: 170px;
+  }
+}
+
+@media (max-width: 759px) {
+  .overlaybrandctr {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 416px) {
+  .overlaybrandctr {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 362px) {
+  .overlaybrandctr {
+    padding-top: 100px;
+  }
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
+
+.specs {
+  margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+  .specs {
+    text-align: center;
+  }
+
+  .marginphone {
+    margin-top: 50px;
+  }
+}
+
+.rowmargin {
+  margin-top: 15px;
+}
+
+.cardmobimage{
+  height: 280px !important;
+}
+
+
+.chargerimage{
+  height: 220px;
+}
+
+
+.parafont{
+  font-size: 12px;
+  font-weight: bold;
+  
+}
+
+
+.row2 ,.row3{
+  margin-top: 16px;
 }
 
 
 @media (max-width:991px)
 {
-  .overlaybrand{
-    width:82%;
+   .chargercontainer{
+     justify-content: center;
+     
+    
+   }
+
+
+   .row2 ,.row3{
+    margin-top: 8px;
   }
+  
 
-  .overlaybrandctr{
-    padding-top: 40px;
-  }
-}
+     
 
-
-@media (max-width:759px)
-{
-  .overlaybrand{
-    width: 95%;
-  }
-
-  .overlaybrandctr{
-    padding-top: 170px;
-  }
-}
-
-
-@media (max-width:759px)
-{
-  .overlaybrandctr{
-    padding-top: 150px;
-  }
-}
-
-
-@media (max-width:416px)
-{
-  .overlaybrandctr{
-    padding-top: 120px;
-  }
-}
-
-
-@media (max-width:362px)
-{
-  .overlaybrandctr{
-    padding-top: 100px;
-  }
-}
-
-
-
-.btn{
-  background-color: black;
-  color: white;
-}
-
-.specs{
-  margin-top: 15px;
-}
-
-
-@media(max-width:991px)
-{
-  .specs{
+  .col-md-6{
+    margin-top: 8px;
     text-align: center;
   }
 
-  .marginphone{
-    margin-top: 50px;
-  }
+  
+  
 }
 
 
-.rowmargin{
-  margin-top: 15px;
-}
+
