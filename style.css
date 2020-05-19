@@ -361,12 +361,72 @@ hr {
 
   .col-md-6{
     margin-top: 8px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   
   
 }
+
+
+
+/* this is for border on hover on cards */
+
+
+.rowhover .brd :hover{
+  border: none;
+}
+
+.rowhover :hover{
+  border: solid grey;
+  
+  
+}
+
+ 
+
+.rowhover .btn-dark{
+
+  visibility: hidden;
+
+}
+
+.rowhover :hover .btn-dark{
+  visibility: visible;
+ 
+}
+
+
+
+
+.brd{
+  padding-bottom: 10px;
+}
+
+@media ( max-width:991px)
+{
+
+.rowhover .brd :hover{
+  border: none;
+}
+
+.rowhover :hover{
+  border: none;
+  
+}
+
+.rowhover .btn-dark{
+
+  visibility: visible;
+
+}
+
+}
+
+
+
+
+
 
 
 
