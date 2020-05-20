@@ -194,12 +194,14 @@ hr {
 }
 
 .footer {
-  background-color: lightgray;
+  background-color: black;
+  color: white;
   padding: 10px;
 }
 
 .copyright {
   margin-top: 10px;
+  color: white !important;
 }
 
 /* phone brand css */
@@ -383,6 +385,10 @@ hr {
   
 }
 
+.rowhover .btn-dark{
+  width: 100%;
+}
+
  
 
 .rowhover .btn-dark{
@@ -425,7 +431,68 @@ hr {
 
 
 
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
 
+
+.navbar-brand{
+  font-size: 30px !important;
+}
+
+.navbar{
+  background-color: black !important;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+
+@media (max-width:767px)
+{
+  .dropdown-menu{
+    background-color: black !important;
+    
+    
+  }
+ 
+  .dropdown-menu :hover{
+    background-color: black !important;
+  }
+
+  .dropdown-item :hover{
+    color: white !important;
+  }
+
+  .dropdown-item{
+    color: white !important;
+  }
+
+  .nav-link:hover{
+    border:none;
+  }
+
+
+
+
+  
+
+  
+
+
+}
+
+
+.nav-link:hover{
+  border-bottom: solid white !important;
+}
+
+
+.dropdown-menu :hover{
+  background-color:  black !important;
+  color: white;
+}
 
 
 
