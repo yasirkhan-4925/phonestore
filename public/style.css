@@ -494,6 +494,34 @@ hr {
   color: white;
 }
 
+.aboutpara{
+  font-size: 20px;
+  margin-top: 8px;
+  text-transform:  capitalize;
+}
 
+.whywepara{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.abouticons{
+  font-size: 150px;
+}
+
+.rowabout2{
+  margin-top: 25px;
+}
+
+
+.topcontainer{
+  background-color: lightgray;
+  padding: 14px;
+}
+
+
+.iconmargin{
+  margin-left: 20px;
+}
 
 
